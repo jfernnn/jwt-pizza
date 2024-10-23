@@ -1,3 +1,5 @@
+
+
 {
   "name": "jwt-pizza",
   "version": "1.0.0",
@@ -123,6 +125,7 @@
     "vite-plugin-istanbul": "^6.0.2"
   },
   "scripts": {
+    "dev": "vite",
     "test": "playwright test",
     "test:coverage": "nyc --reporter=json-summary --reporter=text playwright test"
   },
